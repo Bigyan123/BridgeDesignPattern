@@ -89,13 +89,13 @@ namespace Solution
             // Exercise the bridge
             readingText10.Display();
 
-            ReadingText readingText8 = new Windows10Reader(new NormalDisplay()) { Text = "Read this text for Windows10" };
+            ReadingText readingText8 = new Windows8Reader(new NormalDisplay()) { Text = "Read this text for Windows10" };
             readingText8.Display();
 
             //ReadingText readingText10R = new Windows10Reader(new ReverseDisplay()) { Text = "Read this text for Windows10" };
             //readingText10R.Display();
 
-            //ReadingText readingText8R = new Windows10Reader(new ReverseDisplay()) { Text = "Read this text for Windows10" };
+            //ReadingText readingText8R = new Windows8Reader(new ReverseDisplay()) { Text = "Read this text for Windows10" };
             //readingText8R.Display();
 
 
